@@ -1,0 +1,17 @@
+// override the blueprint default variable values first
+// $pt-intent-danger: #ff3d00;
+// $pt-intent-primary: fuchsia;
+
+// then pull in top-level blueprint sass file (it imports all the sub-files)
+@import "@blueprintjs/core/src/blueprint.scss";
+
+// add custom variables (optional)
+$sassy-text: #ff3d7f;
+$sassy-background: #c2a34f;
+
+//add your own custom styles (optional)
+.sassy-hello {
+  color: $sassy-text;
+  background: $sassy-background;
+  padding: 5px;
+}

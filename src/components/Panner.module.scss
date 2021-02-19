@@ -1,0 +1,20 @@
+.Panner {
+  display: flex;
+  justify-content: center;
+
+  .Square {
+    width: 200px;
+    height: 200px;
+    padding: 0;
+    border-radius: 20px;
+
+    .Picture {
+      width: 200px;
+      height: 200px;
+      border-radius: 20px;
+      background-color: #e1e1e1;
+      background-repeat: no-repeat;
+      background-image: url("https://res.cloudinary.com/codebeast/image/upload/v1583996967/cooked-food-on-black-ceramic-plates-3850838.jpg");
+    }
+  }
+}
