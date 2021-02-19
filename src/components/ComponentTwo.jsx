@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Card, Elevation, Colors, Button } from "@blueprintjs/core";
-import { useSpring, useSprings, animated } from "react-spring";
+import { useSprings, animated } from "react-spring";
 
 const ComponentTwo = ({ onToggleCard3 }) => {
   const [springs, set] = useSprings(1, () => ({ opacity: 0, marginTop: -500 }));

@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Classes, Elevation } from "@blueprintjs/core";
+import { Card, Classes } from "@blueprintjs/core";
 import { animated, useSpring } from "react-spring";
 import styles from "./Panner.module.scss";
 
