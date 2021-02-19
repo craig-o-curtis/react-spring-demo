@@ -1,0 +1,36 @@
+@import "~@blueprintjs/core/lib/scss/variables";
+
+.Todos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 5rem;
+
+  .Container {
+    background-color: $white;
+    width: 30rem;
+    border-radius: 0.5rem;
+    box-shadow: 0px 4px 25px rgba(151, 143, 175, 0.1);
+
+    .Form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      .Todo {
+        background-color: $light-gray5;
+        width: 100%;
+
+        .Text {
+          color: $forest1;
+        }
+
+        &:hover,
+        &:focus {
+          background-color: $light-gray4;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
